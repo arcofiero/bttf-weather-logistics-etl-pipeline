@@ -197,3 +197,6 @@ logs/
 
 # DBeaver/SQL tools
 *.sql
+
+# Ignore virtual environments
+test_env/

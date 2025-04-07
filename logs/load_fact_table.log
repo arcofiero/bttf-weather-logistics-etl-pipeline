@@ -1,0 +1,62 @@
+2025-04-07 02:25:13,552 - INFO - Ensured table exists in database.
+2025-04-07 02:25:13,569 - ERROR - Error during load: (psycopg2.errors.InvalidSchemaName) schema "analytics" does not exist
+LINE 2: CREATE TABLE analytics.fact_shipments_weather (
+                     ^
+
+[SQL: 
+CREATE TABLE analytics.fact_shipments_weather (
+	shipment_id BIGINT, 
+	city_id BIGINT, 
+	timestamp TEXT, 
+	fuel_consumed_liters FLOAT(53), 
+	temperature_2m FLOAT(53), 
+	windspeed_10m FLOAT(53), 
+	precipitation FLOAT(53), 
+	weathercode BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-07 02:26:12,465 - INFO - Ensured analytics.fact_shipments_weather table exists.
+2025-04-07 02:26:12,485 - ERROR - Error during load: (psycopg2.errors.InvalidSchemaName) schema "analytics" does not exist
+LINE 2: CREATE TABLE analytics.fact_shipments_weather (
+                     ^
+
+[SQL: 
+CREATE TABLE analytics.fact_shipments_weather (
+	shipment_id BIGINT, 
+	city_id BIGINT, 
+	timestamp TIMESTAMP WITHOUT TIME ZONE, 
+	fuel_consumed_liters FLOAT(53), 
+	temperature_2m FLOAT(53), 
+	windspeed_10m FLOAT(53), 
+	precipitation FLOAT(53), 
+	weathercode BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-07 02:27:56,520 - INFO - Ensured schema 'analytics' exists.
+2025-04-07 02:27:56,524 - INFO - Ensured table 'analytics.fact_shipments_weather' exists.
+2025-04-07 02:27:56,542 - ERROR - Error during load: (psycopg2.errors.InvalidSchemaName) schema "analytics" does not exist
+LINE 2: CREATE TABLE analytics.fact_shipments_weather (
+                     ^
+
+[SQL: 
+CREATE TABLE analytics.fact_shipments_weather (
+	shipment_id BIGINT, 
+	city_id BIGINT, 
+	timestamp TIMESTAMP WITHOUT TIME ZONE, 
+	fuel_consumed_liters FLOAT(53), 
+	temperature_2m FLOAT(53), 
+	windspeed_10m FLOAT(53), 
+	precipitation FLOAT(53), 
+	weathercode BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-07 02:30:23,130 - ERROR - Error during load: 'function' object has no attribute 'connect'
+2025-04-07 02:31:44,354 - INFO - Ensured schema 'analytics' exists.
+2025-04-07 02:31:44,357 - INFO - Ensured table 'analytics.fact_shipments_weather' exists.
+2025-04-07 02:31:44,984 - INFO - Loaded 9445 rows into analytics.fact_shipments_weather

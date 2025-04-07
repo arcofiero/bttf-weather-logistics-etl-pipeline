@@ -1,0 +1,19 @@
+2025-04-06 17:36:20,357 - ERROR - Database connection or query failed: column "city" does not exist
+LINE 2:             SELECT city, latitude, longitude
+                           ^
+
+2025-04-06 17:36:20,357 - WARNING - No cities to process. Exiting.
+2025-04-06 17:38:38,138 - INFO - Fetched 18 cities from database.
+2025-04-06 17:38:50,090 - INFO - Weather data saved to data/raw/weather//weather_data_2025_04_06.csv
+2025-04-06 17:49:27,212 - INFO - Fetched 18 cities from database.
+2025-04-06 17:49:39,483 - INFO - Weather data saved to data/raw/weather//weather_data_2025_04_06.csv
+2025-04-06 22:04:37,300 - INFO - Fetched 18 cities from database.
+2025-04-06 22:04:49,099 - INFO - Weather data saved to data/raw/weather//weather_data_2025_04_06.csv
+2025-04-07 02:03:28,906 - INFO - Fetched 18 cities from database.
+2025-04-07 02:03:40,935 - INFO - Weather data saved to data/raw/weather//weather_data_2022_07.csv
+2025-04-07 02:06:13,346 - INFO - Fetched 18 cities from database.
+2025-04-07 02:06:25,264 - INFO - Weather data saved to data/raw/weather//weather_data_2022_07.csv
+2025-04-07 02:08:29,648 - INFO - Fetched 18 cities from database.
+2025-04-07 02:08:41,677 - INFO - Weather data saved to data/raw/weather//weather_data_2022_07.csv
+2025-04-07 02:12:09,058 - INFO - Fetched 18 cities from database.
+2025-04-07 02:12:21,629 - INFO - Weather data saved to data/raw/weather//weather_data_2022_07.csv

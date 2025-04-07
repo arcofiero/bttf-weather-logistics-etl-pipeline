@@ -1,0 +1,206 @@
+2025-04-07 00:27:23,683 - INFO - Starting ETL pipeline for fact_shipments_weather...
+2025-04-07 00:27:24,344 - INFO - Loaded shipments and cities from PostgreSQL.
+2025-04-07 00:27:24,345 - ERROR - Weather file not found: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 00:27:24,345 - ERROR - ETL process failed: 'city'
+2025-04-07 00:40:01,516 - INFO - Starting ETL pipeline for fact_shipments_weather...
+2025-04-07 00:40:01,529 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 00:40:01,531 - ERROR - Weather file not found: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 00:40:01,531 - ERROR - ETL process failed: 'city'
+2025-04-07 00:42:36,766 - INFO - Starting ETL pipeline for fact_shipments_weather...
+2025-04-07 00:42:36,777 - ERROR - Error using SQLAlchemy to load DB tables: 'Engine' object has no attribute 'cursor'
+2025-04-07 00:42:36,778 - ERROR - Weather file not found: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 00:42:36,778 - ERROR - ETL process failed: 'city'
+2025-04-07 00:48:36,856 - INFO - Starting fact table build...
+2025-04-07 00:48:36,879 - ERROR - Error loading shipments/cities: 'Engine' object has no attribute 'cursor'
+2025-04-07 00:48:36,880 - ERROR - Weather CSV not found at: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 00:48:36,880 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 00:48:36,880 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 00:48:36,880 - INFO - Fact table ETL complete.
+2025-04-07 00:52:13,177 - INFO - Starting fact table build...
+2025-04-07 00:52:13,200 - ERROR - Error loading shipments/cities: 'Engine' object has no attribute 'cursor'
+2025-04-07 00:52:13,216 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 00:52:13,216 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 00:52:13,216 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 00:52:13,216 - INFO - Fact table ETL complete.
+2025-04-07 01:05:49,774 - INFO - Starting fact table build...
+2025-04-07 01:05:49,800 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:05:49,805 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:05:49,805 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:05:49,805 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:05:49,805 - INFO - Fact table ETL complete.
+2025-04-07 01:09:07,115 - INFO - Starting fact table build...
+2025-04-07 01:09:07,141 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:09:07,147 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:09:07,147 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:09:07,147 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:09:07,147 - INFO - Fact table ETL complete.
+2025-04-07 01:13:45,137 - INFO - Starting fact table build...
+2025-04-07 01:13:45,163 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:13:45,168 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:13:45,168 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:13:45,168 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:13:45,168 - INFO - Fact table ETL complete.
+2025-04-07 01:15:19,426 - INFO - Starting fact table build...
+2025-04-07 01:15:19,450 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:15:19,455 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:15:19,455 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:15:19,455 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:15:19,455 - INFO - Fact table ETL complete.
+2025-04-07 01:19:15,382 - INFO - Starting fact table build...
+2025-04-07 01:19:15,408 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:19:15,413 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:19:15,413 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:19:15,413 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:19:15,414 - INFO - Fact table ETL complete.
+2025-04-07 01:21:55,858 - INFO - Starting fact table build...
+2025-04-07 01:21:55,884 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:21:55,889 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:21:55,889 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:21:55,889 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:21:55,889 - INFO - Fact table ETL complete.
+2025-04-07 01:25:56,077 - INFO - Starting fact table build...
+2025-04-07 01:25:56,101 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:25:56,107 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:25:56,107 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:25:56,107 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:25:56,107 - INFO - Fact table ETL complete.
+2025-04-07 01:27:52,067 - INFO - Starting fact table build...
+2025-04-07 01:27:52,091 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:27:52,095 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:27:52,095 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:27:52,096 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:27:52,096 - INFO - Fact table ETL complete.
+2025-04-07 01:29:42,733 - INFO - Starting fact table build...
+2025-04-07 01:29:42,750 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:29:42,754 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:29:42,755 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:29:42,755 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:29:42,755 - INFO - Fact table ETL complete.
+2025-04-07 01:31:01,900 - INFO - Starting fact table build...
+2025-04-07 01:31:01,926 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:31:01,931 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:31:01,931 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:31:01,931 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:31:01,931 - INFO - Fact table ETL complete.
+2025-04-07 01:35:46,524 - INFO - Starting fact table build...
+2025-04-07 01:37:21,323 - INFO - Starting fact table build...
+2025-04-07 01:38:38,000 - INFO - Starting fact table build...
+2025-04-07 01:38:38,044 - ERROR - Error loading data via SQLAlchemy: Query must be a string unless using sqlalchemy.
+2025-04-07 01:38:38,050 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:38:38,050 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:38:38,050 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:38:38,050 - INFO - Fact table ETL complete.
+2025-04-07 01:39:43,278 - INFO - Starting fact table build...
+2025-04-07 01:39:43,313 - ERROR - Error loading data via SQLAlchemy: 'Connection' object has no attribute 'cursor'
+2025-04-07 01:39:43,316 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:39:43,316 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:39:43,316 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:39:43,317 - INFO - Fact table ETL complete.
+2025-04-07 01:40:28,070 - INFO - Starting fact table build...
+2025-04-07 01:40:28,094 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:40:28,098 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:40:28,098 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:40:28,098 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:40:28,099 - INFO - Fact table ETL complete.
+2025-04-07 01:40:39,687 - INFO - Starting fact table build...
+2025-04-07 01:40:39,699 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:40:39,701 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:40:39,701 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:40:39,702 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:40:39,702 - INFO - Fact table ETL complete.
+2025-04-07 01:42:17,807 - INFO - Starting fact table build...
+2025-04-07 01:42:17,832 - ERROR - Error loading data via SQLAlchemy: Query must be a string unless using sqlalchemy.
+2025-04-07 01:42:17,837 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:42:17,837 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:42:17,837 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:42:17,837 - INFO - Fact table ETL complete.
+2025-04-07 01:43:12,845 - INFO - Starting fact table build...
+2025-04-07 01:43:12,862 - ERROR - Error loading data via SQLAlchemy: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:43:12,865 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:43:12,865 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:43:12,865 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:43:12,866 - INFO - Fact table ETL complete.
+2025-04-07 01:44:55,012 - INFO - Starting fact table build...
+2025-04-07 01:44:55,061 - ERROR - Error loading data via SQLAlchemy: 'Connection' object has no attribute 'cursor'
+2025-04-07 01:44:55,066 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:44:55,066 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:44:55,066 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:44:55,067 - INFO - Fact table ETL complete.
+2025-04-07 01:45:14,300 - INFO - Starting fact table build...
+2025-04-07 01:45:14,336 - ERROR - Error loading data via SQLAlchemy: 'Connection' object has no attribute 'cursor'
+2025-04-07 01:45:14,339 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:45:14,340 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:45:14,340 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:45:14,340 - INFO - Fact table ETL complete.
+2025-04-07 01:45:20,042 - INFO - Starting fact table build...
+2025-04-07 01:45:20,072 - ERROR - Error loading data via SQLAlchemy: 'Connection' object has no attribute 'cursor'
+2025-04-07 01:45:20,074 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:45:20,074 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:45:20,074 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:45:20,075 - INFO - Fact table ETL complete.
+2025-04-07 01:47:09,024 - INFO - Starting fact table build...
+2025-04-07 01:47:09,049 - ERROR - ❌ SQLAlchemy load failed: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:47:09,055 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:47:09,055 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:47:09,056 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:47:09,056 - INFO - Fact table ETL complete.
+2025-04-07 01:47:35,985 - INFO - Starting fact table build...
+2025-04-07 01:47:36,009 - ERROR - ❌ SQLAlchemy load failed: 'Engine' object has no attribute 'cursor'
+2025-04-07 01:47:36,014 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:47:36,015 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 01:47:36,015 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:47:36,015 - INFO - Fact table ETL complete.
+2025-04-07 01:52:12,012 - INFO - Starting fact table build...
+2025-04-07 01:52:12,103 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 01:52:12,108 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:53:18,828 - INFO - Starting fact table build...
+2025-04-07 01:53:18,920 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 01:53:18,924 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:55:05,430 - INFO - Starting fact table build...
+2025-04-07 01:55:05,522 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 01:55:05,526 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:55:05,540 - INFO - Final merged DataFrame has 0 records.
+2025-04-07 01:55:05,540 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:55:05,540 - INFO - Fact table ETL complete.
+2025-04-07 01:58:03,905 - INFO - Starting fact table build...
+2025-04-07 01:58:04,001 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 01:58:04,006 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 01:58:04,019 - INFO - Final merged DataFrame has 0 records.
+2025-04-07 01:58:04,019 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 01:58:04,019 - INFO - Fact table ETL complete.
+2025-04-07 02:04:21,186 - INFO - Starting fact table build...
+2025-04-07 02:04:21,279 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 02:04:21,283 - INFO - Loaded 864 rows from weather CSV.
+2025-04-07 02:04:21,296 - INFO - Final merged DataFrame has 0 records.
+2025-04-07 02:04:21,296 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 02:04:21,296 - INFO - Fact table ETL complete.
+2025-04-07 02:06:50,957 - INFO - Starting fact table build...
+2025-04-07 02:06:51,045 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 02:06:51,045 - ERROR - Weather CSV not found at: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 02:06:51,045 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 02:06:51,046 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 02:06:51,046 - INFO - Fact table ETL complete.
+2025-04-07 02:12:34,936 - INFO - Starting fact table build...
+2025-04-07 02:12:35,019 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 02:12:35,019 - ERROR - Weather CSV not found at: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 02:12:35,019 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 02:12:35,020 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 02:12:35,020 - INFO - Fact table ETL complete.
+2025-04-07 02:15:19,067 - INFO - Starting fact table build...
+2025-04-07 02:15:19,363 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 02:15:19,363 - ERROR - Weather CSV not found at: data/raw/weather/weather_data_2025_04_07.csv
+2025-04-07 02:15:19,364 - WARNING - One or more input DataFrames are empty. Skipping join.
+2025-04-07 02:15:19,364 - WARNING - Final DataFrame is empty. Skipping CSV write.
+2025-04-07 02:15:19,364 - INFO - Fact table ETL complete.
+2025-04-07 02:17:09,316 - INFO - Starting fact table build...
+2025-04-07 02:17:09,406 - INFO - Successfully loaded shipments and cities from PostgreSQL.
+2025-04-07 02:17:09,415 - INFO - Loaded 13392 rows from weather CSV.
+2025-04-07 02:17:09,440 - INFO - Final merged DataFrame has 9445 records.
+2025-04-07 02:17:09,461 - INFO - Fact table written to CSV at data/processed/fact_shipments_weather.csv
+2025-04-07 02:17:09,464 - INFO - Fact table ETL complete.
+2025-04-07 02:21:34,520 - INFO - ETL pipeline started.
+2025-04-07 02:21:34,614 - INFO - Successfully loaded shipments and cities from database.
+2025-04-07 02:21:34,622 - INFO - Loaded weather data: 13392 records.
+2025-04-07 02:21:34,641 - INFO - Final fact table shape: (9445, 8)
+2025-04-07 02:21:34,662 - INFO - Fact table written to: data/processed/fact_shipments_weather.csv
+2025-04-07 02:21:34,662 - INFO - ETL pipeline completed successfully.

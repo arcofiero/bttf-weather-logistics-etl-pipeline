@@ -172,3 +172,28 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+*.egg-info/
+
+# MacOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# DBeaver/SQL tools
+*.sql
